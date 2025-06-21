@@ -9,10 +9,7 @@
 *One of the key factors is the Item MRP data which has positive relation with Item Outlet Sales*
 ![MRP](https://github.com/user-attachments/assets/be898a0e-8fef-404b-8927-e70a2d84bd77)
 
-
-
-
-
 *The other key factor is the Outlet type*
+
 ![Outlet types](https://github.com/user-attachments/assets/f3328199-7218-48b1-9ad3-d6bbc0060e85)
 
