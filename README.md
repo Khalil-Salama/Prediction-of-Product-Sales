@@ -6,10 +6,11 @@
 ### By understanding which combinations of product features and outlet attributes contribute most to high sales, the retailer can make more informed decisions around product placement, promotional planning, and supply chain management. This ultimately supports the goal of maximizing profitability and meeting consumer demand more effectively.
 
 
-*Two significant Visualizations*
+                                         *Two significant Visualizations*
 
 ![MRP](https://github.com/user-attachments/assets/be898a0e-8fef-404b-8927-e70a2d84bd77)
 *One of the key factors is the Item MRP data which has positive relation with Item Outlet Sales*
+
 
 
 ![Outlet types](https://github.com/user-attachments/assets/f3328199-7218-48b1-9ad3-d6bbc0060e85)
