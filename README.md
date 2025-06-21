@@ -11,6 +11,8 @@
 
 
 
+
+
 *The other key factor is the Outlet type*
 ![Outlet types](https://github.com/user-attachments/assets/f3328199-7218-48b1-9ad3-d6bbc0060e85)
 
