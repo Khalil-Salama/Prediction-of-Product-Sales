@@ -6,9 +6,11 @@
 ### By understanding which combinations of product features and outlet attributes contribute most to high sales, the retailer can make more informed decisions around product placement, promotional planning, and supply chain management. This ultimately supports the goal of maximizing profitability and meeting consumer demand more effectively.
 
 
-*One of the key factors is the Item Visability data which shows concentration on placecing specific products to be more visible than others:*
-![products boxplots](https://github.com/user-attachments/assets/8d08a08e-d10e-439f-8b33-35e17634599a)
+*One of the key factors is the Item MRP data which has positive relation with Item Outlet Sales*
+![MRP](https://github.com/user-attachments/assets/be898a0e-8fef-404b-8927-e70a2d84bd77)
 
 
-*The other key factor is the Supermarket type and size as shown below*
-![Outlet type and location](https://github.com/user-attachments/assets/2fd781dc-804e-4c5c-b52a-3ef58f27125c)
+
+*The other key factor is the Outlet type*
+![Outlet types](https://github.com/user-attachments/assets/f3328199-7218-48b1-9ad3-d6bbc0060e85)
+
