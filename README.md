@@ -17,15 +17,37 @@ The plan is to:
 
  - Understand the properties of both products and outlets that significantly influence sales volumes. These include variables such as product type, price, weight, visibility on shelves. At the outlet level, characteristics like store size, location type, store establishment year, and outlet type (grocery store, supermarket, etc.) are considered to determine their impact on consumer buying behavior.
 
-
 ### Data
 - The stakeholders have provided us with:
- - A spreadsheet of various features of products, various stores types, as well as the sales of products in each particular store.
-   - 8523 Rows
-   - 12 columns
-- A Data Dictionary File
- - A data dictionary which lists the name and explanation for every feature in a dataset.
+  - A spreadsheet of various features of products, various stores types, as well as the sales of products in each particular store.
+    - 8523 Rows
+    - 12 columns
+    - there is a mixture of datatypes:
+      - 4 float
+      - 1 int
+      - 7 object
+  - A Data Dictionary File
+    - A data dictionary which lists the name and explanation for every feature in a dataset.
+  
+## Method
+Data dictionary:
+- Checking numeric features because sometimes they are stored as object dtype, so we will inspect the object columns next and look for columns that should be converted.
+   - No object columns that needed to be converted to numeric.
+- Checking the meaning of each feature
+   - Please see the (Data Dictionary) File for full details.
+- Checking if there is features that are not included in the data dictionary
+  -  All the features are included.
+- Checking if There erroneous index column that is not in the data dictionary,
+  - No erroneous columns nothing should be dropped.
+- Checking if there is features with ambiguous column names.
+  - No ambiguous featurs were renamed for clarity.
+    
+Duplicate rows:
+  - There were no duplicate rows.
 
+Missing values:
+
+  - In the missingno matrix plot, we can see that there are only a two columns that have missing values. ("Item weight" and "Outlet_size").
 
 
 
