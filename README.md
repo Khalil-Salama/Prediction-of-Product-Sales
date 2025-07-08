@@ -1,5 +1,5 @@
-# Increasing of product sales in different stores
-## Sales pridectiom analysis
+# Increasing product sales in different stores
+## Sales pridection analysis
 
 **Khalil Salama**
 
@@ -9,7 +9,7 @@ Our stakeholders are:
 
   - retailers
 
-Their primary goal is:
+Their primary goal:
 
  - Increasing products sales based on our analysis.
 
