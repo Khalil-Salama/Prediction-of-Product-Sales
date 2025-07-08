@@ -73,23 +73,23 @@ After inspecting we decided:
   - Item Visibility outliers are mostly in Grocery Stores (Small space increases visibility percentge)
   - After checking the minimum value of 33 dollars in item outlet sales we found it normal because it represents the sales in grocery stores.(not extrem)
 
+## Results
+
+### Visual one: MRP relation to Outlet item sales
+
+![download (2)](https://github.com/user-attachments/assets/5e8000b9-9afc-45c6-93f7-1d84929a88ea)
 
 
+> MRP has the strongest coleration with item outlet sales.
 
-### The sales prediction analysis aims to provide actionable insights into the key factors that drive sales performance of food items across different store locations. By leveraging historical sales data, product attributes, and store characteristics, the model forecasts future sales and identifies trends that can help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
-
-
-### By understanding which combinations of product features and outlet attributes contribute most to high sales, the retailer can make more informed decisions around product placement, promotional planning, and supply chain management. This ultimately supports the goal of maximizing profitability and meeting consumer demand more effectively.
-
-
-                                                      Two significant Visualizations
-
-
-![MRP](https://github.com/user-attachments/assets/be898a0e-8fef-404b-8927-e70a2d84bd77)
-
-And
+### Visual two: Outlet type
 
 ![Outlet types](https://github.com/user-attachments/assets/f3328199-7218-48b1-9ad3-d6bbc0060e85)
+
+> Supermarket type 3 sells the most.\
+
+## Model
+
 
 
 
