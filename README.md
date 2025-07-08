@@ -3,9 +3,20 @@
 
 **Khalil Salama**
 
-### Uncovering the effect of products, outlets on sales increase:
+### Business problem:
 
-The primary goal of this analysis is to uncover the properties of both products and outlets that significantly influence sales volumes. These include variables such as product type, price, weight, visibility on shelves. At the outlet level, characteristics like store size, location type, store establishment year, and outlet type (grocery store, supermarket, etc.) are considered to determine their impact on consumer buying behavior.
+Our stakeholders are:
+
+  - retailers
+
+Their primary goal is:
+
+ - Increasing products sales based on our analysis.
+
+The plan is to:
+
+ - Understand the properties of both products and outlets that significantly influence sales volumes. These include variables such as product type, price, weight, visibility on shelves. At the outlet level, characteristics like store size, location type, store establishment year, and outlet type (grocery store, supermarket, etc.) are considered to determine their impact on consumer buying behavior.
+
 
 ### Data
 
