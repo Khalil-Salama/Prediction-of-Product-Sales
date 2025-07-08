@@ -47,8 +47,31 @@ Duplicate rows:
 
 Missing values:
 
-  - In the missingno matrix plot, we can see that there are only a two columns that have missing values. ("Item weight" and "Outlet_size").
+  - In the missingno matrix plot, we can see that there are only two columns that have missing values. ("Item weight" and "Outlet_size").
 
+![download](https://github.com/user-attachments/assets/928aa6d6-87af-4656-aa79-1250206e791b)
+
+Null Value Observations:
+
+  - Item_weight and Outlet_size have a moderate percentage of null values (17% and 28%, respectively).
+    - Item weight:
+      - Noticed the relation between item identifier and item weight by taking more than 3 samples, so I replaced the null value in item weight by the weight that has the same Item identifier since the weights of each Item identifier are all the same.
+    - Outlet size
+      - All the null values of outlet size are for the years 1998, 2002 and 2007, clearly they are missing so I replaced them with 'missing'.
+  
+inconsistent values:
+
+1) Categorical Features:
+- Item_Fat_Contant
+  - There were a small number of values in the Fat contant column that had "LF, low fat" instead of "Low Fat" and "reg" instead of "regular."
+2) Numerical Features:
+  - Item visibility: has a minimum value of 0.
+  - Item visibility outliers
+  - Also checking the minimum value of Item outlet sales its much lower than the 25% ( 33 - 843$ )
+After inspecting we decided:
+  - The 0.0 values in item visibility is an extrem value. replaced each with the mean of the each item identifier they belong too.(similer items mostely have similer visability) as proved in the data inspection.
+  - Item Visibility outliers are mostly in Grocery Stores (Small space increases visibility percentge)
+  - After checking the minimum value of 33 dollars in item outlet sales we found it normal because it represents the sales in grocery stores.(not extrem)
 
 
 
