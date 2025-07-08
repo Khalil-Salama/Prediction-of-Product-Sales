@@ -4,28 +4,15 @@
 **Khalil Salama**
 
 ### Business problem:
-
-Our stakeholders are:
-
-  - retailers
-
-Their primary goal:
-
- - Increasing products sales based on our analysis.
-
-The plan is to:
-
- - Understand the properties of both products and outlets that significantly influence sales volumes. These include variables such as product type, price, weight, visibility on shelves. At the outlet level, characteristics like store size, location type, store establishment year, and outlet type (grocery store, supermarket, etc.) are considered to determine their impact on consumer buying behavior.
+Understand the properties of both products and outlets that significantly influence sales volumes. These include variables such as product type, price, weight, visibility on shelves. At the outlet level, characteristics like store size, location type, store establishment year, and outlet type (grocery store, supermarket, etc.) are considered to determine their impact on consumer buying behavior.
 
 ### Data
+- Our stakeholders are:
+  - retailers
+- Their primary goal:
+  - Increasing products sales based on our analysis.
 - The stakeholders have provided us with:
   - A spreadsheet of various features of products, various stores types, as well as the sales of products in each particular store.
-    - 8523 Rows
-    - 12 columns
-    - there is a mixture of datatypes:
-      - 4 float
-      - 1 int
-      - 7 object
   - A Data Dictionary File
     - A data dictionary which lists the name and explanation for every feature in a dataset.
   
@@ -41,9 +28,17 @@ Data dictionary:
   - No erroneous columns nothing should be dropped.
 - Checking if there is features with ambiguous column names.
   - No ambiguous featurs were renamed for clarity.
-    
+
+Data information:
+  - 8523 Rows
+  - 12 columns
+- there is a mixture of datatypes:
+  - 4 float
+  - 1 int
+  - 7 object
+
 Duplicate rows:
-  - There were no duplicate rows.
+- There were no duplicate rows.
 
 Missing values:
 
