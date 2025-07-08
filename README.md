@@ -19,6 +19,12 @@ The plan is to:
 
 
 ### Data
+- The stakeholders have provided us with:
+ - A spreadsheet of various features of products, various stores types, as well as the sales of products in each particular store.
+   - 8523 Rows
+   - 12 columns
+- A Data Dictionary File
+ - A data dictionary which lists the name and explanation for every feature in a dataset.
 
 
 
