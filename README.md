@@ -113,7 +113,7 @@ After inspecting we decided:
 
 ## Recommendations:
 
-Using this model to make predict Increasing products sales in various outlets types would be reliable because the R2 in the training set and the testing set are very close (no overfitting). but as mentioned before it can only predict about 60% of the varience in the target (Outlet item sales).
+Using this model to predict Increasing products sales in various outlets types would be reliable because the R2 in the training set and the testing set are very close (no overfitting). but as mentioned before it can only predict about 60% of the varience in the target (Outlet item sales).
 
 
 
