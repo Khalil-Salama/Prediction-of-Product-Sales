@@ -85,6 +85,37 @@ After inspecting we decided:
 
 ## Model
 
+- The Final Model Chosen was Tuned Random Forest Regressor Model.
+
+## Model Metrics
+
+- Tuned Random Forest regressor Model (Training Set):
+------------------------------------------------------------
+- MAE = 756.192
+- MSE = 1,152,558.818
+- RMSE = 1,073.573
+- R^2 = 0.611
+  
+- Tuned Random Forest Regressor Model (Testing Set):
+-------------------------------------------------------------
+ - MAE = 729.631
+ - MSE = 1,091,228.789
+ - RMSE = 1,044.619
+ - R^2 = 0.604
+   
+- For the testing set on the model, 60.4% of the variance in Outlet item sales was explained by the features.
+
+- The Mean Absolute Error was off by about $729.
+
+- The Mean Squared Error was $1,091,228.
+
+- The Root Mean Squared Error had a calculation of $1,070.
+
+## Recommendations:
+
+Using this model to make predict Increasing products sales in various outlets types would be reliable because the R2 in the training set and the testing set are very close (no overfitting). but as mentioned before it can only predict about 60% of the varience in the target (Outlet item sales).
+
+
 
 
 
