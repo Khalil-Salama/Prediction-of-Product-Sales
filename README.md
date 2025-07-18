@@ -111,9 +111,29 @@ After inspecting we decided:
 
 - The Root Mean Squared Error had a calculation of $1,070.
 
-## Recommendations:
+## Visualization for Most important feateurs in our model prediction
+
+<img width="973" height="561" alt="Top 10 importances" src="https://github.com/user-attachments/assets/c9fe28ef-c53c-4ea9-bc24-1af5524df82c" />
+
+
+
+## Most importand features and Recommendations:
 
 Using this model to predict Increasing products sales in various outlets types would be reliable because the R2 in the training set and the testing set are very close (no overfitting). but as mentioned before it can only predict about 60% of the varience in the target (Outlet item sales).
+
+1) Focus on Item Pricing (Item_MRP): Based on the analysis it shows consistently that Item_MRP (Maximum Retail Price) is a significant predictor of Item_Outlet_Sales. This indicates that pricing strategy plays a crucial role.
+
+- Recommendation: Analyze the sales performance of items across different price ranges. Consider optimizing pricing strategies for items, potentially exploring promotional pricing or bundling for certain MRP ranges that show high sales potential.
+
+2) High Performing Outlet type Supermarket Type3: The Outlet_Type, particularly Supermarket Type3, has a strong positive association with sales.
+
+- Recommendation: Invest more resources and inventory into Supermarket Type3. Study the successful strategies or characteristics of these outlet types.
+(e.g., layout, staffing, marketing).
+
+3) High-Performing Outlets (Outlet_Identifier_OUT027): The specific outlet identified as OUT027 also stands out as a strong predictor of high sales.
+
+- Recommendation: Conduct a detailed case study of Outlet OUT027 to identify its unique success factors. This could involve examining its location, customer demographics, management practices, and popular product categories. Apply the lessons learned from OUT027 to improve performance in other outlets.
+
 
 
 
